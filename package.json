@@ -1,0 +1,28 @@
+{
+  "name": "ta-18e__20-05-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/calc.js",
+  "dependencies": {
+    "jest": "^26.0.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "scripts": {
+    "calc": "node ./src/cal.js",
+    "test": "jest",
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaljukits/ta-18e__20-05-2020.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaljukits/ta-18e__20-05-2020/issues"
+  },
+  "homepage": "https://github.com/Kaljukits/ta-18e__20-05-20200#readme"
+}

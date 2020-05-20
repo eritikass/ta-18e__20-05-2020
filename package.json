@@ -11,7 +11,7 @@
     "eslint": "^7.0.0"
   },
   "scripts": {
-    "test": "jest && lint",
+    "test": "jest",
     "lint": "./node_modules/.bin/eslint ."
   },
   "repository": {

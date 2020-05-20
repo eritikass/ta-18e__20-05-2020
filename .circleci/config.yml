@@ -11,8 +11,19 @@ jobs:
           steps:
             - run: npm install
             - run: npm run test
+  build-and-precommit:
+    executor:
+      name: node/default
+    steps:
+      - checkout
+      - node/with-cache:
+          steps:
+            - run: npm install
             - run: npm run precommit
 workflows:
     build-and-test:
       jobs:
         - build-and-test
+    build-and-precommit:
+      jobs:
+        - build-and-precommit

@@ -4,7 +4,8 @@
   "description": "",
   "main": "sum.js",
   "scripts": {
-    "start": "node ../src/sum.js",
+    "sum": "node ./src/sum.js",
+    "sum2": "node ./src/sumWithoutHTTP.js",
     "test": "jest",
     "precommit": "lint-staged"
   },

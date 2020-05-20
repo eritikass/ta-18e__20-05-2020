@@ -1,7 +1,8 @@
 How to run:
 ´´´
 npm i
-npm run start
+npm run sum
+npm run sum2
 ´´´
 
 How to test:

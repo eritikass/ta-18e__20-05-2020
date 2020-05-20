@@ -1,1 +1,11 @@
-# ta-18e__20-05-2020
+How to run:
+´´´
+npm i
+npm run sum
+npm run sum2
+´´´
+
+How to test:
+´´´
+npm run test
+´´´

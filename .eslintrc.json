@@ -14,7 +14,7 @@
     },
     "rules": {
         "semi": ["error", "always"],
-        "quotes": ["error", "double"],
+        "quotes": ["error", "single"],
         "indent": ["error", "tab"],
         "no-trailing-spaces": ["error"],
         "no-undef": ["off"]

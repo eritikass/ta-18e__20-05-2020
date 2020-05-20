@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 
-const sum = async (number1, number2) => {
-  const url = `https://upload.kassikas.com/tpt-sum/`;
+const calculateSum = async (number1, number2) => {
+  const url = "https://upload.kassikas.com/tpt-sum/";
   const urlCalc = `${url}?number1=${number1}&number2=${number2}`;
 
   // Fetch
@@ -14,8 +14,8 @@ const sum = async (number1, number2) => {
   // Get response in JSON
   const data = await response.json();
   // Get sum
-  const sum = data.sum;
+  const calcSum = data.sum;
 
-  return sum;
+  return calcSum;
 };
-module.exports = sum;
+module.exports = calculateSum;

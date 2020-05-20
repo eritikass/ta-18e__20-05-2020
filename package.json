@@ -4,11 +4,15 @@
   "description": "",
   "main": "calc.js",
   "dependencies": {
+    "jest": "^26.0.1",
     "node-fetch": "^2.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  },
   "scripts": {
-    "test": "test"
+    "test": "jest && lint",
+    "lint": "./node_modules/.bin/eslint ."
   },
   "repository": {
     "type": "git",

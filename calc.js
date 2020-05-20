@@ -1,13 +1,16 @@
 const fetch = require("node-fetch");
-calc(9,4);
 
+run();
 
-function calc(a,b) {
-        url = `https://upload.kassikas.com/tpt-sum/?number1=${a}&number2=${b}`;
-         fetch(url)
-        .then(response => response.json())
-         .then(data => {
-             console.log(data)
-             console.log(data.sum)
-            });
+ async function run(){
+    sum = await calc(1,3)
+    console.log("hit api");
+    console.log( sum);
+ }
+
+async function calc(a,b) {
+    const response = await fetch(`https://upload.kassikas.com/tpt-sum/?number1=${a}&number2=${b}`);
+   let obj = await response.json();
+    return obj.sum;
 }
+exports.calc = calc;

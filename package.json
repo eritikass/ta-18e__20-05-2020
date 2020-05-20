@@ -1,0 +1,27 @@
+{
+  "name": "ta-18e__20-05-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sum.js",
+  "scripts": {
+    "start": "node ./sum.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomimarkus991/ta-18e__20-05-2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomimarkus991/ta-18e__20-05-2020/issues"
+  },
+  "homepage": "https://github.com/tomimarkus991/ta-18e__20-05-2020#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}

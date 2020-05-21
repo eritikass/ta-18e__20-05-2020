@@ -12,7 +12,6 @@
   },
   "scripts": {
     "eslint": "./node_modules/.bin/eslint . --fix",
-    "run": "node index.js",
     "test": "jest"
   },
   "repository": {

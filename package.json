@@ -4,13 +4,14 @@
   "description": "",
   "main": "xd.js",
   "dependencies": {
+    "jest": "^26.0.1",
     "node-fetch": "^2.6.0"
   },
   "devDependencies": {
     "eslint": "^7.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "./node_modules/.bin/eslint . --fix",
     "run": "node index.js"
   },
   "repository": {

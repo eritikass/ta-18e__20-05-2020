@@ -1,0 +1,28 @@
+{
+  "name": "ta-18e__20-05-2020",
+  "version": "1.0.0",
+  "description": "",
+  "main": "xd.js",
+  "dependencies": {
+    "jest": "^26.0.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "scripts": {
+    "eslint": "./node_modules/.bin/eslint . --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eritikass/ta-18e__20-05-2020.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eritikass/ta-18e__20-05-2020/issues"
+  },
+  "homepage": "https://github.com/eritikass/ta-18e__20-05-2020#readme"
+}
